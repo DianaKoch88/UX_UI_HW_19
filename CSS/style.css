@@ -182,9 +182,12 @@ li {
     display: inline-block;
     vertical-align: top;
 }
-@media only screen and (max-width: 600px){
+
+@media screen and (max-width: 600px){
+    
     .flexcontainer{
-        display: column;
+        display: flex;
+        flex-direction: column;
     }
     .child1 {
         width: 100%;
