@@ -2,7 +2,6 @@ console.log('your index.js file is loaded correctly');
 $(document).ready(function () {
   $('.navitem').click(function () {
     console.log('this has been clicked');
-    debugger;
 
     $('.active').animate({ letterSpacing: '-=10px' });
     $(this).siblings('.active').removeClass('active');
