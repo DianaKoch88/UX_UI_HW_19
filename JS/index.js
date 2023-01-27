@@ -1,5 +1,19 @@
 console.log("your index.js file is loaded correctly");
-$(document).ready(function(){
+
+$(document).ready(function () {
+  $('.navitem').click(function () {
+    console.log('this has been clicked');
+    debugger;
+
+    $('.active').animate({ letterSpacing: '-=10px' });
+    $(this).siblings('.active').removeClass('active');
+    $(this).toggleClass('active');
+    $('.active').animate({ letterSpacing: '+=10px' });
+  });
+});
+
+
+/*$(document).ready(function(){
     $( ".navitem" ).click(function() {
          console.log("this has been clicked");
 
@@ -19,4 +33,4 @@ $(document).ready(function(){
       
       });
    
-  });
+  });*/
