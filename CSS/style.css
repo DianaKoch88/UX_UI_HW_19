@@ -33,28 +33,59 @@ li:hover{
     font-weight: bold;
 }
 .heroimg {
-    
     height: 600px;
-    padding: 25px;
+    max-width: 100%;
+   padding: 25px;
+  /*  justify-content: center; */
+  
+
 }
-.center {
-    display: block;
+.self{
+    height:395px;
+     border: 10px solid #89ACAA;
+
+}
+/*.center {
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
-  }
+    width: 200%;
+    border: 10px solid #89ACAA;
+      
+  }*/
 .content {
-    display: grid;
     width: 500px;
     margin: 0 auto;
     padding: 25px;
+
+
 }
-.content p{
+.aboutme{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    height:auto ;
+    width: 600px;
+}
+.para {
     font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
     text-align: center;
-    padding: 25px;
-    float: inline-end;
+   /* padding: 25px; */
+    width: 5000px;
+    height: 200px;
+    /*padding-left: 25px;
+    padding-right: 00px;*/
+    margin-top: 75px;
+    
 }
+.button{
+    display: flex;
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+
+}
+
 button{
     background-color: #89ACAA;
     border: none;
@@ -74,11 +105,13 @@ button{
 .myskills{
     font-family: 'Montserrat', sans-serif;
     text-align: center;
-    text-decoration: dashed;
     padding: 25px;
+    
 }
 h1{
     padding: 25px;
+    border: 1px solid #183A50;
+    margin: 50px;
 }
 
 .child1{
@@ -133,11 +166,13 @@ h1{
 }
 
 .mywork h1{
-    text-align: left;
-    padding: 38px;
+   
+    padding: 25px;
     font-family: 'Montserrat', sans-serif;
-    font-size: 25px;
+    
     text-align: center;
+    border:1px solid #183A50;
+    margin: 50px;
 }
 .workgrid{
     display: grid;
@@ -146,11 +181,11 @@ h1{
     font-family: 'Montserrat', sans-serif;
 } 
 .farthest{
-    width: 85%;
+    width: 100%;
     padding: 25px;
     margin: 10px;
-    background-color: white;
-    box-shadow: 0 4px 8px 0 #183A50;
+    /*background-color: white;*/
+    /*box-shadow: 0 4px 8px 0 #183a50ad;*/
   transition: 0.3s;
   border-radius: 5px;
   align-items: center;
@@ -163,6 +198,8 @@ h1{
     box-shadow: 0 4px 8px 0 #183a50ad;
   transition: 0.3s;
   border-radius: 5px;
+  border: 1px solid #89ACAA;
+  text-align: center;
 }
 footer {
     background-color: #183A50;
